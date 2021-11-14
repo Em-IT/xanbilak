@@ -10,7 +10,7 @@
 
     "build:fe": "cd ../xanbilak-fe && yarn build",
     "build:be": "tsc && mv build ../build",
-    "build:full": "yarn build:fe && yarn build:be",
+    "build:full": "yarn build:be && yarn build:fe",
     "build:start": "yarn build:full && yarn start:prod",
     "build": "tsc && mv build ../build",
 
