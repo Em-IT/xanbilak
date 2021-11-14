@@ -6,7 +6,7 @@
   "main": "index.ts",
   "scripts": {
     "start": "ts-node-dev ./index.ts",
-    "start:prod": "yarn build && node ./index.js",
+    "start:prod": "yarn build && node ./build/index.js",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
