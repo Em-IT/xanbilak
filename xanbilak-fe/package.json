@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && mv build ../build/fe",
     "test": "react-scripts test",
     "test:jest": "jest",
     "eject": "react-scripts eject"
