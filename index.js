@@ -51,7 +51,7 @@ app.use(express_1.default.static(path_1.default.resolve(__dirname, '.')));
 /*app.get("/api", (req: Request, res: Response) => {
   res.status(200).json({ message: "Hello from server!" });
 });*/
-app.get("/api", function (req, res) { return __awaiter(void 0, void 0, void 0, function () {
+app.get("./api", function (req, res) { return __awaiter(void 0, void 0, void 0, function () {
     return __generator(this, function (_a) {
         return [2 /*return*/, res.status(200).json({ message: "Hello from server!" })];
     });
