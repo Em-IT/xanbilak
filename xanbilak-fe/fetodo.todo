@@ -1,5 +1,5 @@
 Install packages
-  ☐ Install Jest
+  ✔ Install Jest @done(21-11-14 13:07)
   ☐ Install Enzyme
   ☐ Install TailwindCSS
   ☐ Install ESLint
@@ -24,4 +24,4 @@ Documents
   ☐ Add Social Media banner to github
   ☐ Add wiki
 Test
-  ☐ Write first tests
+  ✔ Write first tests @done(21-11-14 13:07)
