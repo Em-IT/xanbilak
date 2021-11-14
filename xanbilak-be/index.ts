@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Have Node serve the files for our built React app
-app.use(express.static(path.resolve(__dirname, '../../xanbilak-fe/build')));
+app.use(express.static(path.resolve(__dirname, '../xanbilak-fe/build')));
 
 /*app.get("/api", (req: Request, res: Response) => {
   res.status(200).json({ message: "Hello from server!" });
@@ -22,7 +22,7 @@ app.get("/api", async (req: Request, res: Response): Promise<Response> => {
 
 // All other GET requests not handled before will return our React app
 app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '../../xanbilak-fe/build', 'index.html'));
+  res.sendFile(path.resolve(__dirname, '../xanbilak-fe/build', 'index.html'));
 });
 
 try {
