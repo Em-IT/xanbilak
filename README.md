@@ -14,6 +14,7 @@ This is a utility which helps people in shopping. All of the family members can 
 * Express.js
 * MongoDB / Atlas
 * Jest / ReactTestLib
+* TailwindCSS
 <!-- * Socket.io -->
 
 ## Developer:
