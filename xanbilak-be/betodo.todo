@@ -9,6 +9,7 @@ Install packages
   ☐ Install mongo db or use MongoAtlas
   ☐ Install Mongoose
 Config
+  ☐ Deploy Node.js to Heroku
   ☐ Config ESLint
   ☐ Config Prettier
   ☐ Config mongoDB
