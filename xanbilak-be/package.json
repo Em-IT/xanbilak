@@ -7,6 +7,7 @@
   "scripts": {
     "start": "ts-node-dev ./index.ts",
     "start:prod": "yarn build && node ./build/index.js",
+    "build:frontend": "cd ../xanbilak-fe && yarn build",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
