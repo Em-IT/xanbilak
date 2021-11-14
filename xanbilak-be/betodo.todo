@@ -1,0 +1,23 @@
+Install packages
+  ☐ Install Jest
+  ☐ Install ESLint
+  ☐ Install Prettier
+  ☐ Install cors
+  ☐ Install morgan
+  ☐ Install jsonwebtoken
+  ☐ Install passport
+  ☐ Install mongo db or use MongoAtlas
+  ☐ Install Mongoose
+Config
+  ☐ Config ESLint
+  ☐ Config Prettier
+  ☐ Config mongoDB
+Structure
+  ☐ Creare routes folder
+  ☐ Create controller folder
+  ☐ Create models folder
+  ☐ Use version for apps
+  ☐ catch 404 and forward to error handler
+  ☐ error handler api
+Test
+  ☐ Write first tests

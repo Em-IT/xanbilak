@@ -1,0 +1,27 @@
+Install packages
+  ☐ Install Jest
+  ☐ Install Enzyme
+  ☐ Install TailwindCSS
+  ☐ Install ESLint
+  ☐ Install Prettier
+  ☐ Install redux
+  ☐ Install i18next
+Config
+  ☐ use Github Action to auto deploy it to Github Pages
+  ☐ Define Github secrets
+  ☐ Config ESLint
+  ☐ Config Prettier
+Develop Features
+  ☐ Use <React.StrictMode> in root
+  ☐ Add favicon package
+Ideas
+  ☐ Make app multi language 
+  ☐ use SWR or MediaQuery for Caching
+  ☐ use Loadash
+  ☐ use Memo & Callable
+Documents
+  ☐ Add README.MD
+  ☐ Add Social Media banner to github
+  ☐ Add wiki
+Test
+  ☐ Write first tests
