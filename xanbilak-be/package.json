@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "author": "EmIT",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
+    "start": "ts-node-dev ./index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
