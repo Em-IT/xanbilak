@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
-import { UserContext } from "./util/userContext";
+
 import 'react-toastify/dist/ReactToastify.min.css';
-import './App.css';
+
+import { UserContext } from "./util/userContext";
 import NotFoundPage from './containers/NotFoundPage/NotFoundPage';
 import Login from './containers/Login/Login';
 import ShoppingList from './containers/ShoppingList/ShoppingList';
