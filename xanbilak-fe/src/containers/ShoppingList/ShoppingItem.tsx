@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { BuyableItem } from "../../types/BuyableItem";
-import "./ShoppingItem.scss";
 import moment from "moment-jalaali";
 import { BiCalendarPlus } from "react-icons/bi";
 // eslint-disable-next-line no-duplicate-imports
@@ -23,28 +22,28 @@ const ShoppingItem = ({ item, onChange }: inputProps): JSX.Element => {
   const TITLE_MIN_LENGTH = 0;
 
   return (
-    <li className="shopping-item">
-      <div className="main-info" onClick={() => setIsOpen(!isOpen)}>
+    <li className="mb-1">
+      <div className="bg-my-silver p-1 rounded-md" onClick={() => setIsOpen(!isOpen)}>
         <input type="checkbox" onChange={() => onChange(id)}
           checked={isBought} />
-        <span className="title">
+        <span className="mr-1">
           {title.length > TITLE_MAX_LENGTH && !isOpen
             ? title.substring(TITLE_MIN_LENGTH, TITLE_MAX_LENGTH) + "..."
             : title
           }
         </span>
       </div>
-      <div className={"extra-info" + (isOpen ? "" : " is-collapse")}>
-        <div className="description">
+      <div className={"flex flex-col bg-my-silver-dark p-1" + (isOpen ? "" : " hidden")}>
+        <div className="text-xs text-red-700 text-center">
           {description}
         </div>
-        <div className="date-and-time">
-          <div>
-            <BiCalendarPlus className="abc" />
+        <div className="flex flex-row justify-around text-xs text-gray-500">
+          <div className="flex items-center">
+            <BiCalendarPlus className="abc my-0 mx-1 text-gray-500 w-4 h-4" />
             {moment(createDate).format("dddd، jD jMMMM jYYYY")}
           </div>
-          <div>
-            <BiTimeFive />
+          <div className="flex items-center">
+            <BiTimeFive className="abc my-0 mx-1 text-gray-500 w-4 h-4" />
             {moment(createDate).format("HH:mm:ss")}
           </div>
         </div>
