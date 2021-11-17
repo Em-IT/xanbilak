@@ -22,7 +22,7 @@ const ShoppingItem = ({ item, onChange }: inputProps): JSX.Element => {
   const TITLE_MIN_LENGTH = 0;
 
   return (
-    <li className="mb-1">
+    <li className="mb-1 cursor-pointer">
       <div className="bg-my-silver p-1 rounded-md" onClick={() => setIsOpen(!isOpen)}>
         <input type="checkbox" onChange={() => onChange(id)}
           checked={isBought} />
