@@ -33,7 +33,7 @@ const Settings = (): JSX.Element => {
   };
 
   return (
-    <div className="page-wrapper">
+    <div className="h-full">
       <div className="settings-box">
         <h2>{ t("settings") }</h2>
         <hr />

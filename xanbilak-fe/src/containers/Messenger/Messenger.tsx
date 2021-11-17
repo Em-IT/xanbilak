@@ -9,7 +9,7 @@ const Messenger = (): JSX.Element => {
   const { t } = useTranslation();
 
   return (
-    <div className="page-wrapper">
+    <div className="h-full">
       <div className="messenger-box" style={{ textAlign: "center" }}>
         <h2>{ t("messenger") }</h2>
         <h3>{ t("comming_soon") }</h3>
