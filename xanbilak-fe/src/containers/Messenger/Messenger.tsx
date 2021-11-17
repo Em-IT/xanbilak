@@ -1,7 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import NavBar from "../../components/NavBar/NavBar";
-import "./Messenger.scss";
 
 const Messenger = (): JSX.Element => {
 
@@ -10,7 +9,7 @@ const Messenger = (): JSX.Element => {
 
   return (
     <div className="h-full">
-      <div className="messenger-box" style={{ textAlign: "center" }}>
+      <div className="text-center" style={{ height: 'calc(100% - 74px)' }}>
         <h2>{ t("messenger") }</h2>
         <h3>{ t("comming_soon") }</h3>
       </div>
