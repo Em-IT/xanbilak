@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import i18next from "i18next";
 import { useTranslation } from "react-i18next";
-import "./Settings.scss";
 
 const Settings = (): JSX.Element => {
 
@@ -34,7 +33,7 @@ const Settings = (): JSX.Element => {
 
   return (
     <div className="h-full">
-      <div className="settings-box">
+      <div className="text-center" style={{ height: 'calc(100% - 74px)' }}>
         <h2>{ t("settings") }</h2>
         <hr />
 
