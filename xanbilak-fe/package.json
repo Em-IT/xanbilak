@@ -6,6 +6,7 @@
   "main": "dist/index",
   "typings": "dist/index",
   "dependencies": {
+    "@craco/craco": "^6.4.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -29,9 +30,9 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && mv build ../build/fe",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build && mv build ../build/fe",
+    "test": "craco test",
     "test:jest": "jest",
     "eject": "react-scripts eject"
   },
@@ -58,6 +59,9 @@
     "@types/luxon": "^2.0.7",
     "@types/moment-jalaali": "^0.7.5",
     "@types/react": "^17.0.35",
-    "@types/react-router-dom": "^5.3.2"
+    "@types/react-router-dom": "^5.3.2",
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
 }
