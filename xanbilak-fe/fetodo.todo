@@ -5,17 +5,19 @@ Install packages
   ☐ Install ESLint
   ☐ Install Prettier
   ☐ Install redux
-  ☐ Install i18next
+  ✔ Install i18next @done(21-11-17 13:33)
 Config
-  ☐ use Github Action to auto deploy it to Github Pages
-  ☐ Define Github secrets
+  ✔ use Github Action to auto deploy it to Github Pages @done(21-11-17 13:33)
+  ☐ Deploy to Heruko
+  ✔ Define Github secrets @done(21-11-17 13:34)
   ☐ Config ESLint
   ☐ Config Prettier
+  ☐ Config jest
 Develop Features
   ☐ Use <React.StrictMode> in root
-  ☐ Add favicon package
+  ✔ Add favicon package @done(21-11-17 13:34)
 Ideas
-  ☐ Make app multi language 
+  ✔ Make app multi language @done(21-11-17 13:34)
   ☐ use SWR or MediaQuery for Caching
   ☐ use Loadash
   ☐ use Memo & Callable
