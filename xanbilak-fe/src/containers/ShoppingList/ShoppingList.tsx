@@ -103,7 +103,7 @@ const ShoppingList = (): JSX.Element => {
           // X ref={(el) => titleInputRef = el}
         />
       </div>
-      <div className="w-full overflow-scroll" style={{height: 'calc(100% - 74px - 60px)', top: '74px'}}>
+      <div className="w-full overflow-auto" style={{height: 'calc(100% - 74px - 60px)', top: '74px'}}>
         <ul className="list-none m-0 p-4">
           {
             isLoading ? <LoadingSpinner color={""} size={0} /> : null
