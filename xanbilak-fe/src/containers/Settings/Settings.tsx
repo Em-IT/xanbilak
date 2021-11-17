@@ -39,7 +39,11 @@ const Settings = (): JSX.Element => {
 
         <span>{ t("language") } :</span>
         <br />
-        <button onClick={changeLanguage}>
+        <button onClick={changeLanguage}
+          className="bg-my-violet text-white p-1 rounded-md min-w-100
+          hover:bg-my-violet-light hover:shadow-lg"
+          //focus:bg-my-violet-light focus:ring-4 ring-my-violet"
+        >
           {lang}
         </button>
       </div>

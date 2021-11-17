@@ -17,7 +17,10 @@ module.exports = {
       },
       fontFamily: {
         'body': ['"Vazir"', '"Open Sans"'],
-       }
+      },
+      minWidth: {
+        '100': '100px',
+      }
     },
   },
   variants: {
