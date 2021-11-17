@@ -46,8 +46,7 @@ function App(): JSX.Element {
   );
 
   return (
-    // <div>Emad</div>
-    <div className="app-wrapper" data-test="app-wrapper">
+    <div className="container mx-auto h-full bg-white" data-test="app-wrapper">
       <BrowserRouter>
         <UserContext.Provider value={userInfo}>
           {isLoggedIn

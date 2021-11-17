@@ -2,6 +2,18 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+
+    container: {
+      center: true,
+      screens: {
+        sm: '100%',
+        md: '500px',
+        lg: '600px',
+        xl: '800px',
+        '2xl': '800px',
+      },
+    },
+
     extend: {
       colors: {
         'my-violet': {
