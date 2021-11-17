@@ -1,0 +1,50 @@
+.shopping-item {
+    margin-bottom: 5px;
+
+    .main-info {
+        background-color: #f5f3f7;
+        padding: 5px;
+        border-radius: 4px;
+
+        .title {
+            margin-right: 5px;
+        }
+    }
+
+    .extra-info {
+        display: flex;
+        flex-direction: column;
+        background-color: #edebf0;
+        padding: 5px;
+
+        &.is-collapse {
+            display: none;
+        }
+
+        .description {
+            font-size: 13px;
+            color: #9f0126;
+            text-align: center;
+        }
+
+        .date-and-time {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            font-size: 11px;
+            color: #555;
+
+            &>div {
+                display: flex;
+                align-items: center;
+            }
+
+            svg {
+                margin: 0px 5px;
+                fill: #999999;
+                height: 1.5em;
+                width: 1.5em;
+            }
+        }
+    }
+}
