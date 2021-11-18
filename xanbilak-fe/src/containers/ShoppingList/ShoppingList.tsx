@@ -95,7 +95,7 @@ const ShoppingList = (): JSX.Element => {
   return (
     <div className="h-full">
       <MainHeader />
-      <div className="flex justify-center items-center p-4 sticky box-border top-0 w-full bg-my-violet">
+      <div className="flex justify-center items-center px-4 pt-1 pb-3 sticky box-border top-0 w-full bg-my-violet">
         <input type="text"
           onKeyPress={addClickHandle}
           className="px-3 py-2 w-full border-none rounded-md"
