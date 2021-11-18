@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 import MainHeader from "../../components/MainHeader/MainHeader";
 import NavBar from "../../components/NavBar/NavBar";
 import { BuyableItem } from "../../types/BuyableItem";
-import { getData, sendData } from "../../util/ApiTools";
+import { sendData } from "../../util/ApiTools";
 import ShoppingItem from "./ShoppingItem";
 import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 
