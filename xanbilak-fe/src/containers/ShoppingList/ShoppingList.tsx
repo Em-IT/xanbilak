@@ -22,7 +22,29 @@ const ShoppingList = (): JSX.Element => {
     setIsLoading(true);
     try {
 
-      const data = await getData("shoppingList");
+      //const data = await getData("shoppingList");
+      const data = [
+        {
+          id: 1,
+          title: "مرغ",
+          isBought: false,
+          createDate: new Date(),
+          description: "دو عدد ران"
+        },
+        {
+          id: 2,
+          title: "ماهی",
+          isBought: true,
+          createDate: new Date(),
+          description: "دو عدد ماهی قزل آلا بدون پوست"
+        },
+        {
+          id: 3,
+          title: "قارچ",
+          isBought: false,
+          createDate: new Date(),
+        }
+      ]
       setItems(data);
 
     } catch (err) {
