@@ -2,7 +2,7 @@
   "name": "xanbilak",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://em-it.github.io/xanbilak/",
   "main": "dist/index",
   "typings": "dist/index",
   "dependencies": {
