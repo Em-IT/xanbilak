@@ -12,6 +12,7 @@ import Messenger from './containers/Messenger/Messenger';
 import Settings from './containers/Settings/Settings';
 
 function App(): JSX.Element {
+  console.log("Render app module in react");
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [userInfo, setUserInfo] = useState<any>(null);
 
@@ -37,9 +38,9 @@ function App(): JSX.Element {
 
   const mainRoutes = () => (
     <Switch>
-      <Route exact path="/" component={ShoppingList} />
-      <Route exact path="/messenger" component={Messenger} />
-      <Route exact path="/settings" component={Settings} />
+      <Route path="/" component={ShoppingList} />
+      <Route path="/messenger" component={Messenger} />
+      <Route path="/settings" component={Settings} />
       <Route path="/404" component={NotFoundPage} />
       <Route path="*" component={NotFoundPage} />
     </Switch>
